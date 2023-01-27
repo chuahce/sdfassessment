@@ -13,8 +13,6 @@ public class Main {
   public static void main(String[] args) throws Exception {
     String fileName = args[0];
 
-    System.out.printf("Processing %s\n", fileName);
-
     FileReader fr = new FileReader(fileName);
     BufferedReader br = new BufferedReader(fr);
 
