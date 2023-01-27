@@ -22,7 +22,7 @@ public class Main {
 
       String[] parts = equation.split(" ");
       if (parts.length != 3) {
-        System.out.println("Invalid equation format. Please enter in the form of 'number operator number'");
+        System.out.println("Invalid equation format. Enter in the following format: number space operator space number");
         continue;
       }
       try {
